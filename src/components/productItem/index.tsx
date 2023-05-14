@@ -1,4 +1,4 @@
-import { Product } from "../../types";
+import { Product } from "../../types/types";
 
 const ProductItem = ({ title, price, description, category, image, rating }: Product) => {
   return (

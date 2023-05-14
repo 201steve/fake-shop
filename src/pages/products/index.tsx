@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
 import { QueryKeys, fetcher } from "../api/fetcher";
-import { Product } from "../../types";
+import { Product } from "../../types/types";
 import ProductItem from "../../components/productItem";
 
 const ProductsList = () => {
